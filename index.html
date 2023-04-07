@@ -5,29 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Rasesh's Personal Website</title>
-</head>
+    <!-- Internal CSS -->
 
+    <!-- <style>
+        /* Internal CSS */
+        body {
+            background-color: #bcebd4;
+        }
+        hr {
+            /* background-color: white; */
+            /* border-style: dotted; */
+            /* border-color: white; */
+            border-style: none;
+            border-top-style: dotted;
+            border-color: gray;
+            border-width: 3px;
+            height: 0px;
+            width: 99%;
+            /* width: 10%; */
+        }
+    </style> -->
+</head>
+<!-- Inline CSS -->
+<!-- <body style="background-color: #bcebd4;">    Inline CSS     -->
 <body>
     <table cellspacing="20">
         <tr>
             <td>
-                <img src="MyPhoto.jpg" alt="Rasesh's Profile Photo" height="280" width="250" border="2">
+                <img class="circular bor" src="MyPhoto.jpg" alt="Rasesh's Profile Photo" height="280" width="250">
             </td>
             <td>
-                <h1>Rasesh Srivastava</h1>
+                <h1 id="name">Rasesh Srivastava</h1>
                 <em>Student at <strong>Indian Institute of Technology, Guwahati</strong></em>
                 <p>I am interested in Software Development and Competitive Programming. Also, I like playing chess.</p>
             </td>
         </tr>
     </table>
     <strong>
-        <p><a href="https://github.com/Rasesh-Srivastava">My GitHub Profile</a></p>
+        <div><a href="https://github.com/Rasesh-Srivastava">My GitHub Profile</a></div>
     </strong>
     <hr>
     <h3>Projects</h3>
     <ul>
-        <li>Hotshot <a href="https://github.com/ptayal76/hotshot">GitHub Repo Link</a></li>
+        <li>Hotshot &lt;<a href="https://github.com/ptayal76/hotshot">GitHub Repo Link</a>&gt;</li>
         <li>European Option Pricing Website</li>
     </ul>
     <hr>
@@ -136,8 +158,9 @@
         </tr>
     </table>
     <hr>
-    <h2><u>Quick Links</u></h2>
+    <h3 class="Links"><u>Quick Links</u></h3>
     <h3><a href="Certificates.html">Certificates</a></h3>
     <h3><a href="ContactMe.html">Contact Me</a></h3>
 </body>
+
 </html>
