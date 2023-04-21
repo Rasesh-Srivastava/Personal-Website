@@ -1,7 +1,9 @@
 /* External CSS */
 
 /* tag Selectors */
-
+footer {
+    text-align: right;
+}
 body {
     /* background-color: #dcead2; */
     background-color: #f8e0d9;
@@ -46,4 +48,11 @@ img {
 /* id Selectors */
 #name {
     color: maroon;
+}
+/* Attribute Selectors */
+p[value="4"] {
+    color: green;
+}
+h3[value]{
+    color: darkgreen;
 }
